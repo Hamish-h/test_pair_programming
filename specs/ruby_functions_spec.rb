@@ -76,8 +76,6 @@ class Functions_Practice < MiniTest::Test
     assert_equal( "Sep", ninth_month_string )
   end
 
-
-
 #   #Further
 
   #Given the length of a side of a cube calculate the volume
@@ -93,9 +91,9 @@ class Functions_Practice < MiniTest::Test
   end
 
 #   #Given a value in farenheit, convert this into celsius.
-#   def test_fahrenheit_to_celsius()
-#     #add test code here
-#   end
-#
-#
+  def test_fahrenheit_to_celsius()
+     farenheit = celsius()
+     assert_equal(fahrenheit, celsius)
+   end
+
 end
